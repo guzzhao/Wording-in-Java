@@ -18,3 +18,8 @@
 ## 方法
 
 1. [equals,hashcode](sources/equals,hashcode.md)  
+
+
+## 类
+
+1. [String,StringBuffer,StringBuilder](sources/String.md)
