@@ -19,7 +19,11 @@ public int hashCode() {
 如果父类重写equals和hashCode的话,子类也会重写。
 
 
+重写equals:
+```java
 
+
+```
 
 
 ### equals方法实现了等价关系（equivalence relation）：
