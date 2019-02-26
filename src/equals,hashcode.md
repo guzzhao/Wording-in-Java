@@ -21,7 +21,19 @@ public int hashCode() {
 
 重写equals:
 ```java
-
+public boolean equals(Object obj) {
+	if (obj == null){
+		return false;
+	}
+	if (this == obj){
+		return true;
+	}
+	if (obj instanceof Test){
+		Test o = (Test) obj;
+		return this.id == o.id;
+	}
+	return false;
+}
 
 ```
 
